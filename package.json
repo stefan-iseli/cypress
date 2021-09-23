@@ -1,0 +1,37 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "Dermaplast Cypress",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^8.4.1",
+    "cypress-mochawesome-reporter": "^2.3.0",
+    "cypress-multi-reporters": "^1.5.0",
+    "junit-report-merger": "^3.0.2",
+    "mocha-junit-reporter": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.1"
+  },
+  "scripts": {
+    "electron-test": "cypress run",
+    "postelectron-test": "jrm ./results/combined-report.xml \"./results/results-*.xml\"",
+    "script-electron": "npm run electron-test || npm run postelectron-test",
+    "chrome-test": "cypress run --browser chrome --headless",
+    "postchrome-test": "jrm ./results/combined-report.xml \"./results/results-*.xml\"",
+    "script-chrome": "npm run chrome-test || npm run postchrome-test",
+    "firefox-test": "cypress run --browser firefox --headless",
+    "postfirefox-test": "jrm ./results/combined-report.xml \"./results/results-*.xml\"",
+    "script-firefox": "npm run firefox-test || npm run postfirefox-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefan-iseli/cypress.git"
+  },
+  "author": "Digital Media Factory GmbH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stefan-iseli/cypress/issues"
+  },
+  "homepage": "https://github.com/stefan-iseli/cypress#readme"
+}

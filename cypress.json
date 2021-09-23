@@ -1,1 +1,8 @@
-{}
+{
+  "projectId": "cqnam3",
+  "reporter": "junit",
+  "reporterOptions": {
+      "mochaFile": "results/results-[hash].xml"
+  },
+  "video": false
+}

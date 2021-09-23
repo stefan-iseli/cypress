@@ -9,7 +9,7 @@ describe('Visit Page in CH and Form Validation', function(){
     cy.wait(5000).get('.nav-item__user > .nav-link').click()
 
     //Clicking Registrieren button
-     cy.wait(2000).get('.user-dropdown__actions > .button-2').click()
+     cy.wait(3000).get('.user-dropdown__actions > .button-2').click()
 
     // Form Validation
     // Condition - Leave all fields empty and click Registrieren button.
