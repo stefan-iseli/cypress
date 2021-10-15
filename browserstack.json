@@ -1,0 +1,57 @@
+{
+    "auth": {
+        "username": "davidolarte_F931bJ",
+        "access_key": "8tzPaSxopj6D8615Mza5"
+    },
+    "browsers": [
+        {
+            "browser": "chrome",
+            "os": "Windows 10",
+            "versions": [
+                "latest",
+                "latest-1"
+            ]
+        },
+        {
+            "browser": "firefox",
+            "os": "Windows 10",
+            "versions": [
+                "latest",
+                "latest-1"
+            ]
+        },
+        {
+            "browser": "edge",
+            "os": "Windows 10",
+            "versions": [
+                "latest",
+                "latest-1"
+            ]
+        },
+        {
+            "browser": "chrome",
+            "os": "OS X Mojave",
+            "versions": [
+                "latest",
+                "latest-1"
+            ]
+        },
+        {
+            "browser": "firefox",
+            "os": "OS X Big Sur",
+            "versions": [
+                "latest",
+                "latest-1"
+            ]
+        }
+        
+        
+    ],
+    "run_settings": {
+        "cypress_config_file": "cypress.json",
+        "project_name": "Cypress Dermaplast",
+        "build_name": "Cypress Demo Build",
+        "parallels": "5"
+    }
+}
+
