@@ -4,5 +4,6 @@
   "reporterOptions": {
       "mochaFile": "results/results-[hash].xml"
   },
+ 
   "video": true
 }

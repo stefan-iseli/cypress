@@ -50,7 +50,7 @@
     "run_settings": {
         "cypress_config_file": "cypress.json",
         "project_name": "Cypress Dermaplast",
-        "build_name": "Cypress Demo Build",
+        "build_name": "Cypress Dermaplast testing",
         "parallels": "5"
     }
 }
